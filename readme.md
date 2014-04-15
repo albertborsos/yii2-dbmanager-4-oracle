@@ -1,6 +1,8 @@
 Yii2 DbManager class for Oracle databases
 ==========================================
 
+Oracle required that a table column name to be uppercased. I updated the original \yii\rbac\DbManager class's every attributes name, and included the missing classes because of the new namespace.
+
 Installation
 ------------
 
