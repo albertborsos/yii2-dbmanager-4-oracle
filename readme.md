@@ -8,7 +8,13 @@ Oracle required that a table column name to be uppercase. I updated the original
 Installation
 ------------
 
-1.) Add or update the following component to your config file:
+1.) Download via `packagist` by adding the following line to your `composer.json`
+```
+	"require": {
+		"albertborsos/yii2dbmanageroracle": "*"
+	},
+```
+2.) Add or update the following component to your config file:
 ```
 'components' => [
 	...
@@ -22,5 +28,5 @@ Installation
 	...
 ],
 ```
-2.) Create the tables by the `schema-oracle.sql` script
+3.) Create the tables by the `schema-oracle.sql` script
 
