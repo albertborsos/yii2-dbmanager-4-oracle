@@ -9,7 +9,7 @@ Installation
 'components' => [
 	...
 	'authManager' => [
-		'class' => 'vendor\invitel\oracle\DbManager',
+		'class' => 'vendor\albertborsos\yii2dbmanageroracle\DbManager',
 		'itemTable' => 'TBL_AUTH_ITEM',
 		'itemChildTable' => 'TBL_AUTH_ITEM_CHILD',
 		'assignmentTable' => 'TBL_AUTH_ASSIGNMENT',

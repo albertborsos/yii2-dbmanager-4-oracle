@@ -6,7 +6,7 @@
  * Time: 18:57
  */
 
-namespace vendor\invitel\oracle;
+namespace vendor\albertborsos\yii2dbmanageroracle;
 
 use Yii;
 use yii\db\Connection;

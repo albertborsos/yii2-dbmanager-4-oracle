@@ -1,5 +1,5 @@
 {
-	"name": "albertborsos/yii2-dbmanager-oracle",
+	"name": "albertborsos/yii2dbmanageroracle",
 	"description": "overrided \yii\rbac\DbManager for Oracle Database Manager Systems",
 	"keywords": ["yii2", "oracle", "dbmanager", "authmanager"],
 	"type": "yii2-extension",
