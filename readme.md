@@ -5,7 +5,7 @@ Installation
 ------------
 
 1.) Add or update the following component to your config file:
-
+```
 'components' => [
 	...
 	'authManager' => [
@@ -17,6 +17,6 @@ Installation
 	],
 	...
 ],
-
+```
 2.) Create the tables by the [schema-oracle.sql] script
 
