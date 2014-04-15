@@ -1,6 +1,6 @@
 {
 	"name": "albertborsos/yii2dbmanageroracle",
-	"description": "overrided \yii\rbac\DbManager for Oracle",
+	"description": "overrided \\yii\\rbac\\DbManager for Oracle",
 	"keywords": ["yii2", "oracle", "dbmanager", "authmanager"],
 	"type": "yii2-component",
 	"require": {
