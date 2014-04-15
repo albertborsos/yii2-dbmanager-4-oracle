@@ -1,6 +1,10 @@
 {
 	"name": "albertborsos/yii2dbmanageroracle",
-	"description": "overrided \yii\rbac\DbManager for Oracle Database Manager Systems",
+	"description": "overrided \yii\rbac\DbManager for Oracle",
 	"keywords": ["yii2", "oracle", "dbmanager", "authmanager"],
-	"type": "yii2-extension",
+	"type": "yii2-component",
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "*"
+	}
 }
