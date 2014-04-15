@@ -18,5 +18,5 @@ Installation
 	...
 ],
 ```
-2.) Create the tables by the [schema-oracle.sql] script
+2.) Create the tables by the `schema-oracle.sql` script
 
