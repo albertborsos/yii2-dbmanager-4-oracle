@@ -3,7 +3,7 @@
 	"description": "overrided \\yii\\rbac\\DbManager for Oracle",
 	"keywords": ["yii2", "dbmanager", "dbmanager", "authmanager"],
 	"type": "yii2-component",
-	"licence": "BSD3-Clause",
+	"licence": "BSD-3-Clause",
 	"require": {
 		"php": ">=5.4.0",
 		"yiisoft/yii2": "*"
