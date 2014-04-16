@@ -16,6 +16,7 @@ use yii\base\InvalidCallException;
 use yii\base\InvalidParamException;
 use yii\di\Instance;
 use yii\rbac\Assignment;
+use yii\rbac\BaseManager;
 use yii\rbac\Item;
 use yii\rbac\Role;
 use yii\rbac\Rule;
@@ -33,8 +34,7 @@ use yii\rbac\Permission;
  * @author Alexander Kochetov <creocoder@gmail.com>
  * @since 2.0
  */
-class DbManager extends \yii\rbac\BaseManager
-{
+class DbManager extends BaseManager{
     /**
      * @var Connection|string the DB connection object or the application component ID of the DB connection.
      * After the DbManager object is created, if you want to change this property, you should only assign it
@@ -650,4 +650,58 @@ class DbManager extends \yii\rbac\BaseManager
     {
         $this->db->createCommand()->delete($this->assignmentTable)->execute();
     }
-}
+
+	/**
+	 * Returns a value indicating whether the child already exists for the parent.
+	 *
+	 * @param Item $parent
+	 * @param Item $child
+	 * @return boolean whether `$child` is already a child of `$parent`
+	 */
+	public function hasChild($parent, $child)
+	{
+		// TODO: Implement hasChild() method.
+	}
+
+	/**
+	 * Removes all authorization data, including roles, permissions, rules, and assignments.
+	 */
+	public function removeAll()
+	{
+		// TODO: Implement removeAll() method.
+	}
+
+	/**
+	 * Removes all permissions.
+	 * All parent child relations will be adjusted accordingly.
+	 */
+	public function removeAllPermissions()
+	{
+		// TODO: Implement removeAllPermissions() method.
+	}
+
+	/**
+	 * Removes all roles.
+	 * All parent child relations will be adjusted accordingly.
+	 */
+	public function removeAllRoles()
+	{
+		// TODO: Implement removeAllRoles() method.
+	}
+
+	/**
+	 * Removes all rules.
+	 * All roles and permissions which have rules will be adjusted accordingly.
+	 */
+	public function removeAllRules()
+	{
+		// TODO: Implement removeAllRules() method.
+	}
+
+	/**
+	 * Removes all role assignments.
+	 */
+	public function removeAllAssignments()
+	{
+		// TODO: Implement removeAllAssignments() method.
+	}}
