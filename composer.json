@@ -1,11 +1,12 @@
 {
-	"name": "albertborsos/yii2dbmanageroracle",
+	"name": "albertborsos/yii2-oracle-dbmanager",
 	"description": "overrided \\yii\\rbac\\DbManager for Oracle",
 	"keywords": ["yii2", "dbmanager", "dbmanager", "authmanager"],
 	"type": "yii2-component",
 	"licence": "BSD-3-Clause",
-	"require": {
-		"php": ">=5.4.0",
-		"yiisoft/yii2": "*"
-	}
+    "autoload": {
+        "psr-4": {
+            "albertborsos\\yii2oracledbmanager\\": ""
+        }
+    }
 }

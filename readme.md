@@ -18,7 +18,7 @@ Installation
 1.) Download via `packagist` by adding the following line to your `composer.json`
 ```
 	"require": {
-		"albertborsos/yii2dbmanageroracle": "*"
+		"albertborsos/yii2-oracle-dbmanager": "*"
 	},
 ```
 2.) Add or update the following component to your config file:
@@ -26,7 +26,7 @@ Installation
 'components' => [
 	...
 	'authManager' => [
-		'class' => 'vendor\albertborsos\yii2dbmanageroracle\DbManager',
+		'class' => 'vendor\albertborsos\yii2oracledbmanager\DbManager',
 		'itemTable' => 'TBL_AUTH_ITEM',
 		'itemChildTable' => 'TBL_AUTH_ITEM_CHILD',
 		'assignmentTable' => 'TBL_AUTH_ASSIGNMENT',

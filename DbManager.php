@@ -6,7 +6,7 @@
  * Time: 18:57
  */
 
-namespace vendor\albertborsos\yii2dbmanageroracle;
+namespace albertborsos\yii2oracledbmanager;
 
 use Yii;
 use yii\db\Connection;
@@ -106,7 +106,7 @@ class DbManager extends BaseManager{
 
         Yii::trace($item instanceof Role ? "Checking role: $itemName" : "Checking permission: $itemName", __METHOD__);
 
-        if (!$this->executeRule($item, $params)) {
+        if (!$this->executeRule($user, $item, $params)) {
             return false;
         }
 
