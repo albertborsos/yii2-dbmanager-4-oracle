@@ -704,4 +704,16 @@ class DbManager extends BaseManager{
 	public function removeAllAssignments()
 	{
 		// TODO: Implement removeAllAssignments() method.
-	}}
+	}
+
+    /**
+     * Removed all children form their parent.
+     * Note, the children items are not deleted. Only the parent-child relationships are removed.
+     * @param Item $parent
+     * @return boolean whether the removal is successful
+     */
+    public function removeChildren($parent)
+    {
+        // TODO: Implement removeChildren() method.
+    }
+}
